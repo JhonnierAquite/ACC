@@ -13,7 +13,9 @@ namespace CRUDACC.Models
         public int Id { get; set; }
         [Required(ErrorMessage = "Se Necesita un nombre")]
         public string Nombre { get; set; }
+        [Required(ErrorMessage = "Se Necesita una descripcion")]
         public String Descripcion { get; set; }
+        [Required(ErrorMessage = "Se Necesita una cantidad")]
         public int CantidadP { get; set; }
 
     }

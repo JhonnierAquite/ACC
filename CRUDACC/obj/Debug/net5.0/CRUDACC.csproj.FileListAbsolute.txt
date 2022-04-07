@@ -144,3 +144,6 @@ C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Index.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Create.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Delete.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Edit.cshtml.g.cs
