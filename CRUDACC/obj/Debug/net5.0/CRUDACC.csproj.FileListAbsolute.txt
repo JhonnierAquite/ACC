@@ -147,3 +147,7 @@ C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Create.cshtml.g.cs
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Delete.cshtml.g.cs
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\Edit.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Create.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Delete.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Edit.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Index.cshtml.g.cs

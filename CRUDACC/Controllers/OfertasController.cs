@@ -1,7 +1,6 @@
 ﻿using CRUDACC.Datos;
 using CRUDACC.Models;
 using Microsoft.AspNetCore.Mvc;
-using CRUDACC.Datos;
 using System.Collections.Generic;
 
 namespace CRUDACC.Controllers
@@ -10,10 +9,12 @@ namespace CRUDACC.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+      
         public OfertasController(ApplicationDbContext context)
         {
             _context = context;
         }
+
 
         //Http Get Index
         public IActionResult Index()
@@ -40,11 +41,14 @@ namespace CRUDACC.Controllers
                 _context.Oferta.Add(oferta);
                 _context.SaveChanges();
 
-                TempData["mensaje"] = "La oferta se ha creado correctamente";
+//Arreglar
+//                TempData["mensaje"] = "La oferta se ha creado correctamente";
                 return RedirectToAction("Index");
             }
             return View();
         }
+
+        
 
         //Http Get Edit
         public IActionResult Edit(int? id)
@@ -74,7 +78,7 @@ namespace CRUDACC.Controllers
                 _context.Oferta.Update(oferta);
                 _context.SaveChanges();
 
-                TempData["mensaje"] = "La oferta se ha actualizado correctamente";
+                //TempData["mensaje"] = "La oferta se ha actualizado correctamente";
                 return RedirectToAction("Index");
             }
             return View();

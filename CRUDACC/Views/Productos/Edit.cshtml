@@ -1,0 +1,57 @@
+﻿@model CRUDACC.Models.Producto
+@{
+    ViewData["Title"] = "Editar Oferta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+<div class="container">
+
+    <div class="row">
+        <div class= "col-sm-12">
+            <H3> Editar Libro </H3>
+        </div>
+        
+    </div>
+    <div class="row">
+       <div class ="col-sm-10">
+           <form method="post" asp-action="Edit">
+
+               <input type="hidden" asp-for="Id" />
+
+
+               <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+               <div class ="form-group">
+                   <label asp-for="Nombre" class="control-label"></label>
+                   <input asp-for="Nombre" class="form-control" />
+                   <span asp-validation-for="Nombre" class="text-danger"></span>
+               </div>
+
+                <div class ="form-group">
+                   <label asp-for="Descripcion" class="control-label"></label>
+                   <input asp-for="Descripcion" class="form-control" />
+                   <span asp-validation-for="Descripcion" class="text-danger"></span>
+               </div>
+
+               <div class ="form-group">
+                   <label asp-for="Valor" class="control-label"></label>
+                   <input asp-for="Valor" class="form-control" />
+                   <span asp-validation-for="Valor" class="text-danger"></span>
+               </div>
+
+               <div class ="form-group">
+                   
+                   <input type="submit" value="Editar producto" class="btn btn-primary" />
+               </div>
+
+           </form>
+       </div>
+
+    </div>
+</div>
+
+@section Scripts{
+    
+    @{ <partial name="_ValidationScriptsPartial.cshtml" />}
+}

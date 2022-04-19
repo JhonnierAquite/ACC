@@ -16,5 +16,6 @@ namespace CRUDACC.Datos
         }
 
         public DbSet<Oferta> Oferta { get; set; }
+        public DbSet<Producto> Producto { get; set; }
     }
 }
