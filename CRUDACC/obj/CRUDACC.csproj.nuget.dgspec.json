@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Desktop\\USB\\universidad\\cundi\\2022-1\\ProyecACC\\CRUDACC\\CRUDACC\\CRUDACC.csproj": {}
+    "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\CRUDACC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Desktop\\USB\\universidad\\cundi\\2022-1\\ProyecACC\\CRUDACC\\CRUDACC\\CRUDACC.csproj": {
+    "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\CRUDACC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\USB\\universidad\\cundi\\2022-1\\ProyecACC\\CRUDACC\\CRUDACC\\CRUDACC.csproj",
+        "projectUniqueName": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\CRUDACC.csproj",
         "projectName": "CRUDACC",
-        "projectPath": "C:\\Users\\Juan\\Desktop\\USB\\universidad\\cundi\\2022-1\\ProyecACC\\CRUDACC\\CRUDACC\\CRUDACC.csproj",
-        "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Desktop\\USB\\universidad\\cundi\\2022-1\\ProyecACC\\CRUDACC\\CRUDACC\\obj\\",
+        "projectPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\CRUDACC.csproj",
+        "packagesPath": "C:\\Users\\jhoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0-beta, )"
             }
           },
           "imports": [
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

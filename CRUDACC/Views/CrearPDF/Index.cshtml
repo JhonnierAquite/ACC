@@ -1,0 +1,22 @@
+﻿@model CRUDACC.Models.R_Producto
+@{
+    //ViewData["Title"] = "Index";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
+}
+
+<div>
+    <b>Nombre</b>@Model.Nombre<br />
+
+   
+</div>
+
+@foreach( var Producto1 in Model.productos)
+            {
+                <div style="border:1px solid #666; padding:20px;">
+                    <b>Nombre</b>@Producto1.Nombre<br />
+                    <b>Decripcion</b>@Producto1.Descripcion
+                    <b></b>
+                </div>
+            }
+

@@ -18,5 +18,7 @@ namespace CRUDACC.Models
         [Required(ErrorMessage = "Se Necesita una cantidad")]
         public int CantidadP { get; set; }
 
+
     }
+    
 }
