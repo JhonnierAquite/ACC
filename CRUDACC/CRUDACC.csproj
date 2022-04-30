@@ -25,6 +25,14 @@
     <Folder Include="Rotativa\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\estilos.css" />
+    <None Include="wwwroot\Imagenes\cafe-icon-logo-design-vector-260nw-1023845536.webp" />
+    <None Include="wwwroot\Imagenes\img1.webp" />
+    <None Include="wwwroot\Imagenes\log.png" />
+    <None Include="wwwroot\Imagenes\nosotros1.jpg" />
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

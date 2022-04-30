@@ -11511,11 +11511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\jhoni\\source\\repos\\ACC\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\TestProject\\TestProject.csproj",
+      "projectPath": "C:\\Users\\jhoni\\source\\repos\\ACC\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\jhoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\jhoni\\source\\repos\\ACC\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11532,8 +11532,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\CRUDACC.csproj": {
-              "projectPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\CRUDACC\\CRUDACC.csproj"
+            "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\CRUDACC.csproj": {
+              "projectPath": "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\CRUDACC.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hO4nMt+/8LRYVYszm0mv+y+fCMiOV8vGRxPkuIJysP27/Piaf+1LwvcA/p6+1PqjKRMdBO9Pbz4zth2FwNZHRA==",
+  "dgSpecHash": "og2uFnBj3OITotz91lXHF22TBio+4uSMFmYQ0N39nGgRsY8vu6Hz1b5rLmCmfpy3KdWee1rFzwbOCGA6MpMqCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhoni\\Source\\Repos\\ACC\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\jhoni\\source\\repos\\ACC\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhoni\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\jhoni\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
