@@ -151,3 +151,11 @@ C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Delete.cshtml.g.cs
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Edit.cshtml.g.cs
 C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Productos\Index.cshtml.g.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\bin\Debug\net5.0\Rotativa.AspNetCore.dll
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\CRUDACC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Juan\Desktop\USB\universidad\cundi\2022-1\ProyecACC\CRUDACC\CRUDACC\obj\Debug\net5.0\Razor\Views\Ofertas\CrearPdf.cshtml.g.cs
