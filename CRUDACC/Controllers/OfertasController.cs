@@ -2,6 +2,7 @@
 using CRUDACC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using Rotativa.AspNetCore;
 
 namespace CRUDACC.Controllers
 {
@@ -23,7 +24,17 @@ namespace CRUDACC.Controllers
 
             return View(ListOfertas);
         }
+        //Http Get IndexPDF
+        public IActionResult CrearPdf()
+        {
+            IEnumerable<Oferta> ListOfertas = _context.Oferta;
 
+
+            return new ViewAsPdf(ListOfertas)
+            {
+
+            };
+        }
         //Http get create
         public IActionResult Create()
         {

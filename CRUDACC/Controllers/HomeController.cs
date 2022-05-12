@@ -1,4 +1,5 @@
 ﻿using CRUDACC.Models;
+using CRUDACC.Permisos;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -8,7 +9,8 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace CRUDACC.Controllers
-{
+{   
+    [ValidarSesion]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -27,6 +29,14 @@ namespace CRUDACC.Controllers
         {
             return View();
         }
+
+        public IActionResult CerrarSesion()
+        {
+            //Session["usuario"] = null;
+            return RedirectToAction("Index", "Home");
+            
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

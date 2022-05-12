@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<body>
+    <div class="container">
+        <section id="content">
+            <form action="@Url.Action("Login","Acceso")" method="post">
+                <h1>Iniciar Sesión</h1>
+                <div>
+                    <input type="text" name="Correo" placeholder="Usuario" required="" id="username" />
+                </div>
+                <div>
+                    <input type="password"name="Clave" placeholder="contraseña" required="" id="password" />
+                </div>
+                <div>
+                    <input type="submit" value="Iniciar Sesion" />
+                    <a href="@Url.Action("Registrar","Acceso")">Registro</a>
+                </div>
+            </form><!-- form -->
+            <div class="button">
+                <!--<a href="#">Download source file</a>-->
+            </div><!-- button -->
+        </section><!-- content -->
+    </div><!-- container -->
+</body>
+</html>

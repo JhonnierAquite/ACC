@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\CRUDACC.csproj": {}
+    "C:\\Users\\jhoni\\Source\\Repos\\ACC1\\CRUDACC\\CRUDACC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\CRUDACC.csproj": {
+    "C:\\Users\\jhoni\\Source\\Repos\\ACC1\\CRUDACC\\CRUDACC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\CRUDACC.csproj",
+        "projectUniqueName": "C:\\Users\\jhoni\\Source\\Repos\\ACC1\\CRUDACC\\CRUDACC.csproj",
         "projectName": "CRUDACC",
-        "projectPath": "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\CRUDACC.csproj",
+        "projectPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC1\\CRUDACC\\CRUDACC.csproj",
         "packagesPath": "C:\\Users\\jhoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhoni\\source\\repos\\ACC\\CRUDACC\\obj\\",
+        "outputPath": "C:\\Users\\jhoni\\Source\\Repos\\ACC1\\CRUDACC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jhoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNet.SessionState.SessionStateModule": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.16, )"
@@ -50,13 +66,49 @@
               "target": "Package",
               "version": "[5.0.16, )"
             },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[6.17.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "Microsoft.Web.RedisSessionStateProvider": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Quarks.NHibernate.ISessionFactoryExtensions.GetCurrentOrNewSession": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Quarks.NHibernate.ISessionFactoryExtensions.HasCurrentSessionContext": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Rotativa.AspNetCore": {
               "target": "Package",
               "version": "[1.2.0-beta, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.17.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "UrlHelper": {
+              "target": "Package",
+              "version": "[1.0.10.22, )"
             }
           },
           "imports": [
